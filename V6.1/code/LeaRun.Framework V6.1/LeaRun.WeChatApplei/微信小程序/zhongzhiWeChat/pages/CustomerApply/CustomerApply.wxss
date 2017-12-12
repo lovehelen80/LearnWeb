@@ -1,0 +1,39 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  margin-top:50rpx;
+  margin-left:auto;
+  margin-right:auto;
+  width:85%;
+}
+.txtInput{
+  width:100%;
+  height:70rpx;
+  padding-left:10rpx;
+}
+.BorderRed{
+  border:solid 1px red;
+  background-color: #ffcccc;
+}
+.BorderGray{
+  border:solid 1px #aaa;
+  background-color: #fff;
+}
+.colorGray{
+  color: #000;
+}
+.colorRed{
+  color: red;
+}
+.checkboxGroupView{
+  width:100%; margin-top:20rpx;
+}
+.checkbox{
+  padding-right: 10rpx;
+}
+.btn{
+  margin-top:20rpx;
+  width:80%;
+}

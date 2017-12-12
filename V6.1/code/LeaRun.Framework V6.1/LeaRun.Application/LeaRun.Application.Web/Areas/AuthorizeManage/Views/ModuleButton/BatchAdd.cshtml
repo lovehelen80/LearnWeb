@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "批量添加按钮视图";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+<script type="text/javascript">
+    var moduleId = request('moduleId');
+    $(function () {
+        initControl();
+    })
+    //初始化控件
+    function initControl() {
+        $("#ModuleId").val(moduleId);
+    }
+    //保存表单
+    function AcceptClick(callback) {
+        try {
+            var data = [];
+            var JsonText = $("#JSONText").val();
+
+            var el = $('<div></div>');
+            el.html(JsonText);
+            $('a', el).each(function (i) {
+                var tx = $(this).text();
+                var id = $(this).attr('id');
+                tx = $.trim(tx);
+                data.push({
+                    EnCode: id,
+                    FullName: tx,
+                    SortCode: i + 1,
+                    ModuleId: moduleId,
+                    ModuleButtonId: newGuid(),
+                    ActionAddress: "",
+                    ParentId: "0"
+                });
+            });
+
+            callback(data);
+            dialogClose();
+        } catch (e) {
+            alert(e);
+        }
+    }
+</script>
+<div style="margin-top: 10px; margin-right: 30px;">
+    <table class="form">
+        <tr>
+            <th class="formTitle">Html</th>
+            <td class="formValue">
+                <textarea id="JSONText" class="form-control" style="height: 190px;"></textarea>
+            </td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,38 @@
+<!--userData.wxml-->
+<form report-submit="true" bindsubmit="formSubmit" bindreset="formReset">
+<view style=" width:90%; margin-left:auto; margin-right:auto;">
+  <view style="margin-top:30px;">
+    <view style=" height:20px; width:100%; display: flex;">
+      <text style="margin-left:auto; margin-right:auto;">({{paraId}}{{systemType}})({{systemCode}})</text>
+    </view>
+  </view>
+  <view style="margin-top:30px;">
+    <text style="float:left; width:30%;">姓名：</text>
+    <input name="txtName" type="text" placeholder="用户姓名" value="{{userInfo.nickName}}" style="border:{{txtNameColor}}; width:65%;" focus="{{true}}" bindinput="txtNameInput"/>
+  </view>
+  <view style="margin-top:20px;">
+    <text style="float:left; width:30%;">性别：</text>
+    <radio-group name="rgSex" style="width:65%;">
+      <radio value="1" checked="{{sexMen}}"/>男
+      <radio value="0" checked="{{sexWomen}}"/>女
+    </radio-group>
+  </view>
+  <view style="margin-top:20px;">
+    <text style="float:left; width:30%;">出生日期：</text>
+    <picker name="txtBirthDay" mode="date" value="{{date}}" start="1900-01-01" end="2017-12-31" bindchange="bindDateChange">
+      <view style="{{txtBirthDayColor}}">当前选择: {{date}}</view>
+    </picker>
+  </view>
+  <view style="margin-top:20px; height:150px;">
+    <text style="float:left; width:30%;">备注：</text>
+    <textarea name="txtRemark" maxlength="1000" style="float:left; border:solid 1px #aaa; width:65%; height:150px;" placeholder="请填写备注说明" />
+  </view>
+  <view style=" margin-top:20px; margin-left:auto; margin-right:auto; width:auto;">
+    <text style="color:red;width:auto;">{{message}}</text>
+  </view>
+  <view style="margin-top:20px;">
+    <button type="primary" form-type="submit" style="float:left; margin-left:30%; width:70px;">提交</button>
+    <button type="primary" form-type="reset" style="float:left; margin-left:10%; width:70px;">重置</button>
+  </view>
+</view>
+</form>

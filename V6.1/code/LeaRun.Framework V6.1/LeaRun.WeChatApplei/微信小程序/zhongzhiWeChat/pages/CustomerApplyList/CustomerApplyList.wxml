@@ -1,0 +1,46 @@
+<!--userData.wxml-->
+<form report-submit="true" bindsubmit="formSubmit">
+<view class="listSearch">
+    <view style="width:90%;">
+        <input name="txtName" class="txtSearch" type="text" placeholder="*请输入客户姓名或身份证号" />
+    </view>
+    <view style="width:10%;">
+    <button type="primary" size="default" form-type="submit" plain="true" size="30"  class="btnSearch">
+        <icon type="search" size="23" class="IconSearch" />
+    </button>
+    </view>
+</view>
+
+<view class="table" style=" margin-top:20rpx">
+  <view class="tr">
+    <view class="td width15">姓名</view>
+    <view class="td width40">身份证号</view>
+    <view class="td width30">贷款类型</view>
+    <view class="td width15">审核</view>
+  </view>
+</view>
+
+<scroll-view scroll-y="true" lower-threshold="30" bindscrolltolower="scrollLower" style="height: 800rpx;">
+<view class="table">
+  <block wx:for="{{listData}}">
+    <view class="tr">
+      <view class="td width15">{{item.CustName}}</view>
+      <view class="td width40">{{item.IDNumber}}</view>
+      <view class="td width30">{{item.ProductKind}}</view>
+      <view class="td width15">{{item.ItemName}}</view>
+    </view>
+  </block>
+  <view class="trEmpty">
+      <view class="td width15"></view>
+      <view class="td width40"></view>
+      <view class="td width30"></view>
+      <view class="td width15"></view>
+    </view>
+  <text style=" margin-left:30rpx;">{{message}}</text>
+</view>
+</scroll-view>
+
+<view style="margin-top:20rpx;">
+    <button type="primary" bindtap="tapBtn" class="btnBig">提交用户信息</button>
+</view>
+</form>

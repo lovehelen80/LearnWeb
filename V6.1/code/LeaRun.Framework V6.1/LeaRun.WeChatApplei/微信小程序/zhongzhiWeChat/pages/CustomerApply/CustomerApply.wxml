@@ -1,0 +1,39 @@
+<!--userData.wxml-->
+<form report-submit="true" bindsubmit="formSubmit" bindreset="formReset">
+<view class="list" style=" width:90%; margin-left:auto; margin-right:auto;">
+  <view class="item">
+    <input name="txtCustName" class="txtInput {{txtCustNameBorder}}" type="text" placeholder="*客户姓名" bindinput="txtCustNameInput" value="{{txtCustNameValue}}"/>
+  </view>
+  <view class="item">
+    <input name="txtMobile" class="txtInput {{txtMobileBorder}}" type="text" placeholder="客户电话" bindinput="txtMobileInput" value="{{txtMobileValue}}"/>
+  </view>
+  <view class="item">
+    <input name="txtIDNumber" class="txtInput {{txtIDNumberBorder}}" type="text" placeholder="*客户身份证号" bindinput="txtIDNumberInput" value="{{txtIDNumberValue}}"/>
+  </view>
+  <view class="item">
+    <input name="txtContact" class="txtInput {{txtContactBorder}}" type="text" placeholder="*提交人姓名" bindinput="txtContactInput" value="{{txtContactValue}}"/>
+  </view>
+  <view class="item">
+    <input name="txtApplyMobile" class="txtInput {{txtApplyMobileBorder}}" type="text" placeholder="*提交人电话" bindinput="txtApplyMobileInput" value="{{txtApplyMobileValue}}"/>
+  </view>
+  <view class="item">
+    <text class="{{ProductKindColor}}">*期望贷款类型</text>
+    <view class="checkboxGroupView">
+        <checkbox-group name="cbgProductKind" bindchange="cbgProductKindChange">
+            <label class="checkbox" wx:for="{{ProductKindItems}}">
+                <checkbox value="{{item.ItemValue}}" />{{item.ItemName}}
+            </label>
+        </checkbox-group>
+    </view>
+  </view>
+
+
+  <view class="item">
+    <text style="color:red;width:auto;">{{message}}</text>
+  </view>
+  <view>
+    <button type="primary" form-type="submit" class="btn">提交用户信息</button>
+    <button type="primary" bindtap="tapBtn" class="btn">查看提交结果</button>
+  </view>
+</view>
+</form>
