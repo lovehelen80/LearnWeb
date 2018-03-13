@@ -103,3 +103,4 @@ D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util.SignalR\obj\Deb
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util.SignalR\obj\Debug\LeaRun.Util.SignalR.csproj.CoreCompileInputs.cache
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util.SignalR\obj\Debug\LeaRun.Util.SignalR.dll
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util.SignalR\obj\Debug\LeaRun.Util.SignalR.pdb
+D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util.SignalR\obj\Debug\LeaRun.Util.SignalR.csproj.CopyComplete

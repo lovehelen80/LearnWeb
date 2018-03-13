@@ -129,3 +129,5 @@ D:\work\Src\LeaRun.Framework V6.1\LeaRun.WeChatApplei\LeaRun.WeChatApplei.API\ob
 D:\work\Src\LeaRun.Framework V6.1\LeaRun.WeChatApplei\LeaRun.WeChatApplei.API\obj\Debug\LeaRun.WeChatApplei.API.csproj.CoreCompileInputs.cache
 D:\work\Src\LeaRun.Framework V6.1\LeaRun.WeChatApplei\LeaRun.WeChatApplei.API\obj\Debug\LeaRun.WeChatApplei.API.dll
 D:\work\Src\LeaRun.Framework V6.1\LeaRun.WeChatApplei\LeaRun.WeChatApplei.API\obj\Debug\LeaRun.WeChatApplei.API.pdb
+D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.WeChatApplei\LeaRun.WeChatApplei.API\obj\Debug\LeaRun.WeChatApplei.API.csprojResolveAssemblyReference.cache
+D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.WeChatApplei\LeaRun.WeChatApplei.API\obj\Debug\LeaRun.WeChatApplei.API.csproj.CoreCompileInputs.cache

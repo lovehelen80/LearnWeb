@@ -32,7 +32,6 @@ D:\taobaoSVN\力软敏捷企业专业版(V6.1_升级版)\V6.1\code\LeaRun.Framew
 D:\taobaoSVN\力软敏捷企业专业版(V6.1_升级版)\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache\obj\Debug\LeaRun.Cache.pdb
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache\bin\Debug\LeaRun.Cache.dll
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache\bin\Debug\LeaRun.Cache.pdb
-D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache\obj\Debug\LeaRun.Cache.csprojResolveAssemblyReference.cache
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache\obj\Debug\LeaRun.Cache.csproj.CoreCompileInputs.cache
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache\obj\Debug\LeaRun.Cache.dll
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache\obj\Debug\LeaRun.Cache.pdb

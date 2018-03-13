@@ -396,3 +396,4 @@ D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Application\LeaRun.A
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Application\LeaRun.Application.Service\obj\Debug\LeaRun.Application.Service.csproj.CoreCompileInputs.cache
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Application\LeaRun.Application.Service\obj\Debug\LeaRun.Application.Service.dll
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Application\LeaRun.Application.Service\obj\Debug\LeaRun.Application.Service.pdb
+D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Application\LeaRun.Application.Service\obj\Debug\LeaRun.Application.Service.csproj.CopyComplete

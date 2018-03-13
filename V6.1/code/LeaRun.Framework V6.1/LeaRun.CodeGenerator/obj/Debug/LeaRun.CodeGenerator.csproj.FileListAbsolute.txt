@@ -85,3 +85,4 @@ D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.CodeGenerator\obj\De
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.CodeGenerator\obj\Debug\LeaRun.CodeGenerator.csproj.CoreCompileInputs.cache
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.CodeGenerator\obj\Debug\LeaRun.CodeGenerator.dll
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.CodeGenerator\obj\Debug\LeaRun.CodeGenerator.pdb
+D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.CodeGenerator\obj\Debug\LeaRun.CodeGenerator.csproj.CopyComplete

@@ -85,3 +85,4 @@ D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.WeC
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.WeChat\obj\Debug\LeaRun.Util.WeChat.csproj.CoreCompileInputs.cache
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.WeChat\obj\Debug\LeaRun.Util.WeChat.dll
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.WeChat\obj\Debug\LeaRun.Util.WeChat.pdb
+D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.WeChat\obj\Debug\LeaRun.Util.WeChat.csproj.CopyComplete

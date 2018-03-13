@@ -33,7 +33,6 @@ D:\taobaoSVN\力软敏捷企业专业版(V6.1_升级版)\V6.1\code\LeaRun.Framew
 D:\taobaoSVN\力软敏捷企业专业版(V6.1_升级版)\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Extension\obj\Debug\LeaRun.Util.Extension.csprojResolveAssemblyReference.cache
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Extension\bin\Debug\LeaRun.Util.Extension.dll
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Extension\bin\Debug\LeaRun.Util.Extension.pdb
-D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Extension\obj\Debug\LeaRun.Util.Extension.csprojResolveAssemblyReference.cache
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Extension\obj\Debug\LeaRun.Util.Extension.csproj.CoreCompileInputs.cache
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Extension\obj\Debug\LeaRun.Util.Extension.dll
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Extension\obj\Debug\LeaRun.Util.Extension.pdb

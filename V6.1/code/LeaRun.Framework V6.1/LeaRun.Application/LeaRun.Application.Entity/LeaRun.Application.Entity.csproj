@@ -112,6 +112,7 @@
     <Compile Include="SystemManage\LogEntity.cs" />
     <Compile Include="SystemManage\ViewModel\DataItemCodes.cs" />
     <Compile Include="SystemManage\ViewModel\DataItemModel.cs" />
+    <Compile Include="SystemManage\ViewModel\DataItemValues.cs" />
     <Compile Include="UserInfoModel.cs" />
     <Compile Include="WebApp\appUserInfoModel.cs" />
     <Compile Include="WeChatManage\WeChatAppEntity.cs" />

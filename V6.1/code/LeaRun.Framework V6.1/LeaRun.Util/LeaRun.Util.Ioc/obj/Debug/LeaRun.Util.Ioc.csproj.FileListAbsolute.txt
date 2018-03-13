@@ -105,7 +105,7 @@ D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Ioc
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Ioc\bin\Debug\Microsoft.Practices.Unity.xml
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Ioc\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Ioc\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
-D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Ioc\obj\Debug\LeaRun.Util.Ioc.csprojResolveAssemblyReference.cache
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Ioc\obj\Debug\LeaRun.Util.Ioc.csproj.CoreCompileInputs.cache
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Ioc\obj\Debug\LeaRun.Util.Ioc.dll
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Ioc\obj\Debug\LeaRun.Util.Ioc.pdb
+D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Ioc\obj\Debug\LeaRun.Util.Ioc.csproj.CopyComplete

@@ -2677,6 +2677,18 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:LeaRun.Application.Web.Areas.GeneratorManage.Controllers.TemplateController.CreateCode">
+            <summary>
+            创建代码（自动写入VS里面目录）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Web.Areas.GeneratorManage.Controllers.TemplateController.GetDataItemConst(System.String@,System.String@)">
+            <summary>
+            获取数据字典常量类
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:LeaRun.Application.Web.Areas.PublicInfoManage.Controllers.EmailController">
             <summary>
             版 本 6.1

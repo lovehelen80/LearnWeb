@@ -6396,21 +6396,6 @@
             数据字典类型常量
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.AuditStatus">
-            <summary>
-             AuditStatus.审核状态
-            </summary>
-        </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.FormSort">
-            <summary>
-             FormSort.表单类别
-            </summary>
-        </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.FlowSort">
-            <summary>
-             FlowSort.流程类别
-            </summary>
-        </member>
         <member name="F:LeaRun.Application.Entity.DataItemCodes.FlowManage">
             <summary>
              FlowManage.流程管理
@@ -6434,6 +6419,21 @@
         <member name="F:LeaRun.Application.Entity.DataItemCodes.DepartmentNature">
             <summary>
              DepartmentNature.部门性质
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemCodes.AuditStatus">
+            <summary>
+             AuditStatus.审核状态
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemCodes.FormSort">
+            <summary>
+             FormSort.表单类别
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemCodes.FlowSort">
+            <summary>
+             FlowSort.流程类别
             </summary>
         </member>
         <member name="F:LeaRun.Application.Entity.DataItemCodes.SysManage">
@@ -6526,484 +6526,724 @@
              Client_ExpensesType.支出种类
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ProductKind">
+        <member name="T:LeaRun.Application.Entity.DataItemValues">
             <summary>
-             ProductKind.客服意向类型
+            数据字典值变量
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.Gender">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.AuditStatus_草稿">
             <summary>
-             Gender.性别
+             AuditStatus.草稿
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CustLevel">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.AuditStatus_提交">
             <summary>
-             CustLevel.客户等级
+             AuditStatus.提交
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.TrackStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.AuditStatus_审核">
             <summary>
-             TrackStatus.跟进状态
+             AuditStatus.审核
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.Educated">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.AuditStatus_驳回">
             <summary>
-             Educated.学历
+             AuditStatus.驳回
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.IDKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.AuditStatus_废弃">
             <summary>
-             IDKind.证件类型
+             AuditStatus.废弃
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.EnableKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.AuditStatus_完成">
             <summary>
-             EnableKind.客户可用标记
+             AuditStatus.完成
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.TrueFalse">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ChancePhase_初步接洽">
             <summary>
-             TrueFalse.真假
+             Client_ChancePhase.初步接洽
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.WorkKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ChancePhase_需求确定">
             <summary>
-             WorkKind.工作类型
+             Client_ChancePhase.需求确定
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.SocialKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ChancePhase_利润评估">
             <summary>
-             SocialKind.社保类型
+             Client_ChancePhase.利润评估
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.PolicyType">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ChancePhase_决策报备">
             <summary>
-             PolicyType.保单类型
+             Client_ChancePhase.决策报备
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.AllowStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ChancePhase_方案报价">
             <summary>
-             AllowStatus.客户准入状态
+             Client_ChancePhase.方案报价
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CRM_PlanKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ChancePhase_其它">
             <summary>
-             CRM_PlanKind.回访主题
+             Client_ChancePhase.其它
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CRM_PlanStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ChanceSort_产品类">
             <summary>
-             CRM_PlanStatus.提醒状态
+             Client_ChanceSort.产品类
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.TrackWay">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ChanceSort_方案类">
             <summary>
-             TrackWay.沟通方式
+             Client_ChanceSort.方案类
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.TrackKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ChanceSort_服务类">
             <summary>
-             TrackKind.跟踪类型
+             Client_ChanceSort.服务类
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ConnectStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ChanceSort_协议类">
             <summary>
-             ConnectStatus.接通状态
+             Client_ChanceSort.协议类
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ChanKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ChanceSource_网站广告">
             <summary>
-             ChanKind.渠道类别
+             Client_ChanceSource.网站广告
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ActiveStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ChanceSource_客户介绍">
             <summary>
-             ActiveStatus.激活状态
+             Client_ChanceSource.客户介绍
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ProcessModel">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ChanceSource_搜索引擎">
             <summary>
-             ProcessModel.过程模块
+             Client_ChanceSource.搜索引擎
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ExpendKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ChanceSource_展览会">
             <summary>
-             ExpendKind.支出类型
+             Client_ChanceSource.展览会
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CheckStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ChanceSource_报刊广告">
             <summary>
-             CheckStatus.查核状态
+             Client_ChanceSource.报刊广告
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.cooperation">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ChanceSource_朋友介绍">
             <summary>
-             cooperation.合作机构
+             Client_ChanceSource.朋友介绍
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CreditProductKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_Degree_潜在客户">
             <summary>
-             CreditProductKind.信贷产品分类
+             Client_Degree.潜在客户
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.HouseProductKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_Degree_意向客户">
             <summary>
-             HouseProductKind.房贷产品分类
+             Client_Degree.意向客户
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.FundHouseProductKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_Degree_往来客户">
             <summary>
-             FundHouseProductKind.短借产品分类
+             Client_Degree.往来客户
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ProtocolKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ExpensesType_销售费用">
             <summary>
-             ProtocolKind.协议类型
+             Client_ExpensesType.销售费用
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ProcessStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ExpensesType_办公耗材">
             <summary>
-             ProcessStatus.过程状态
+             Client_ExpensesType.办公耗材
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ServiceFormKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ExpensesType_交通费用">
             <summary>
-             ServiceFormKind.服务单类型
+             Client_ExpensesType.交通费用
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.BusinessSystem">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ExpensesType_企业税收">
             <summary>
-             BusinessSystem.业务系统
+             Client_ExpensesType.企业税收
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CrossResult">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ExpensesType_财务费用">
             <summary>
-             CrossResult.房贷过件结果
+             Client_ExpensesType.财务费用
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CreditFaceAgreeAddress">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ExpensesType_企业费用">
             <summary>
-             CreditFaceAgreeAddress.信贷面签点
+             Client_ExpensesType.企业费用
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CreditAgreeResult">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ExpensesType_网络硬件">
             <summary>
-             CreditAgreeResult.信贷面签结果
+             Client_ExpensesType.网络硬件
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CreditDeductCard">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ExpensesType_房租费用">
             <summary>
-             CreditDeductCard.信贷扣卡情况
+             Client_ExpensesType.房租费用
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CreditTakeDeduct">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ExpensesType_公司电费">
             <summary>
-             CreditTakeDeduct.信贷代扣协议签订情况
+             Client_ExpensesType.公司电费
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.BankName">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_Level_A">
             <summary>
-             BankName.银行名称
+             Client_Level.重要客户
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.RemoveKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_Level_B">
             <summary>
-             RemoveKind.垫资解押类型
+             Client_Level.主要客户
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ThreeAccountSupply">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_Level_C">
             <summary>
-             ThreeAccountSupply.三方账户提供者
+             Client_Level.普通客户
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ProductBusinessKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_Level_D">
             <summary>
-             ProductBusinessKind.产品业务类型
+             Client_Level.其他客户
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.FundHouseBusinessKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_PaymentAccount_SRCB">
             <summary>
-             FundHouseBusinessKind.短借业务类型
+             Client_PaymentAccount.上海农商银行
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.FundCarProductKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_PaymentAccount_alipay">
             <summary>
-             FundCarProductKind.车贷产品分类
+             Client_PaymentAccount.支付宝
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CarBusinessKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_PaymentAccount_otherAccount">
             <summary>
-             CarBusinessKind.车贷子单业务类型
+             Client_PaymentAccount.其它账户
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ConfirmStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_PaymentMode_1">
             <summary>
-             ConfirmStatus.确认状态
+             Client_PaymentMode.现金
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CarGaveBackKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_PaymentMode_2">
             <summary>
-             CarGaveBackKind.车贷还款方式
+             Client_PaymentMode.票汇
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.GaveResult">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_PaymentMode_3">
             <summary>
-             GaveResult.信贷放款结果
+             Client_PaymentMode.信汇
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CreditRejectType">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_PaymentMode_4">
             <summary>
-             CreditRejectType.信贷拒单类别
+             Client_PaymentMode.电汇
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.FundCarRejectType">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_PaymentMode_5">
             <summary>
-             FundCarRejectType.车贷拒单类别
+             Client_PaymentMode.承兑
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.FundHouseRejectType">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_PaymentMode_6">
             <summary>
-             FundHouseRejectType.短借拒单类别
+             Client_PaymentMode.信用证
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.HouseRejectType">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ProductInfo_lradms01">
             <summary>
-             HouseRejectType.房贷拒单类别
+             Client_ProductInfo.敏捷开发框架-个人开发版
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CreditStopType">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ProductInfo_lradms02">
             <summary>
-             CreditStopType.信贷终止类别
+             Client_ProductInfo.敏捷开发框架-个人尊享版
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.FundCarStopType">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ProductInfo_lradms03">
             <summary>
-             FundCarStopType.车贷终止类别
+             Client_ProductInfo.敏捷开发框架-企业基础版
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.FundHouseStopType">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ProductInfo_lradms04">
             <summary>
-             FundHouseStopType.短借终止类别
+             Client_ProductInfo.敏捷开发框架-企业增强版
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.HouseStopType">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ProductInfo_lradms05">
             <summary>
-             HouseStopType.房贷终止类别
+             Client_ProductInfo.敏捷开发框架-企业豪华版
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CreditBackType">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ProductInfo_lradms06">
             <summary>
-             CreditBackType.信贷产品还款方式
+             Client_ProductInfo.敏捷开发框架-企业旗舰版
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.IsCanTellImmediateFamily">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ProductInfo_lradms07">
             <summary>
-             IsCanTellImmediateFamily.直系亲属能否知道贷款
+             Client_ProductInfo.敏捷开发框架-企业尊贵版
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.HousePropertyKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ProductInfo_lradms08">
             <summary>
-             HousePropertyKind.房产类型
+             Client_ProductInfo.敏捷开发框架-企业定制版
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.HousePropertyAreaKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ProductInfo_lr10001">
             <summary>
-             HousePropertyAreaKind.房产区域类型
+             Client_ProductInfo.软件维护费用
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.PolicyKind">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ProductInfo_lr10002">
             <summary>
-             PolicyKind.保单种类
+             Client_ProductInfo.软件服务费用
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.PolicyDianHe">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ProductInfo_lr10003">
             <summary>
-             PolicyDianHe.保单电核
+             Client_ProductInfo.软件外包费用
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.PolicyContent">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ProductInfo_lr10004">
             <summary>
-             PolicyContent.保单内容
+             Client_ProductInfo.软件定制费用
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ChannelReturnCostMode">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ProductInfo_lr10005">
             <summary>
-             ChannelReturnCostMode.渠道返费方式
+             Client_ProductInfo.Oracle正版数据库
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ProtocolChargeType">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ProductInfo_lr10006">
             <summary>
-             ProtocolChargeType.协议收费类型
+             Client_ProductInfo.SqlServer正版数据库
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ServiceStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ProductInfo_lr10007">
             <summary>
-             ServiceStatus.协议服务状态
+             Client_ProductInfo.服务器硬件
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.RefundStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ProductInfo_lr10008">
             <summary>
-             RefundStatus.协议退款结果
+             Client_ProductInfo.PDA无线扫描枪
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CreditBusinessSystem">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ProductInfo_lr10009">
             <summary>
-             CreditBusinessSystem.信贷业务系统
+             Client_ProductInfo.无线打印机
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.HouseBusiness">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_ProductInfo_lr10010">
             <summary>
-             HouseBusiness.房贷业务
+             Client_ProductInfo.有线打印机
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.HouseServiceFormProcess">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_Sort_企业客户">
             <summary>
-             HouseServiceFormProcess.房贷主单过程状态
+             Client_Sort.企业客户
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.HouseServiceDetailProcess">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_Sort_个体客户">
             <summary>
-             HouseServiceDetailProcess.房贷子单过程状态
+             Client_Sort.个体客户
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CreditServiceFormProcessStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_Sort_其他客户">
             <summary>
-             CreditServiceFormProcessStatus.信贷服务单进程状态
+             Client_Sort.其他客户
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CreditServiceFormThreadStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_Trade_国家机关">
             <summary>
-             CreditServiceFormThreadStatus.信贷服务单线程(记录)状态
+             Client_Trade.国家机关
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CreditDetailFormProcessStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_Trade_房地产">
             <summary>
-             CreditDetailFormProcessStatus.信贷子单进程状态
+             Client_Trade.房地产
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.FundHouseBusiness">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_Trade_建筑业">
             <summary>
-             FundHouseBusiness.短借业务
+             Client_Trade.建筑业
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.FundHouseFormProcess">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_Trade_制造业">
             <summary>
-             FundHouseFormProcess.短借主单过程状态
+             Client_Trade.制造业
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.FundHouseDetailProcess">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_Trade_互联网">
             <summary>
-             FundHouseDetailProcess.短借子单过程状态
+             Client_Trade.互联网
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.FundCarBusinesses">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_Trade_金融业">
             <summary>
-             FundCarBusinesses.车贷业务
+             Client_Trade.金融业
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.FundCarServiceFormProcess">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.Client_Trade_其他业">
             <summary>
-             FundCarServiceFormProcess.车贷主单过程状态
+             Client_Trade.其他业
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.FundCarServiceDetailProcess">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.CodeRuleItem_1">
             <summary>
-             FundCarServiceDetailProcess.车贷子单过程状态
+             CodeRuleItem.自定义
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CustomerStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.CodeRuleItem_2">
             <summary>
-             CustomerStatus.客户状态
+             CodeRuleItem.日期
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ReciveExpendStatement">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.CodeRuleItem_3">
             <summary>
-             ReciveExpendStatement.收支结算
+             CodeRuleItem.流水号
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ReciveOrderStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.CodeRuleItem_4">
             <summary>
-             ReciveOrderStatus.收入单状态
+             CodeRuleItem.公司
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ReciveType">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.CodeRuleItem_5">
             <summary>
-             ReciveType.收入类型
+             CodeRuleItem.部门
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ReciveDifficultStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.CodeRuleItem_6">
             <summary>
-             ReciveDifficultStatus.疑难状态
+             CodeRuleItem.用户
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.RecivePayStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.CodeRuleMode_1">
             <summary>
-             RecivePayStatus.支付状态
+             CodeRuleMode.自动编码
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ReciveAccountStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.CodeRuleMode_2">
             <summary>
-             ReciveAccountStatus.入账状态
+             CodeRuleMode.自动编码可更改
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.BillAuditStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.CompanyNature_国家机关">
             <summary>
-             BillAuditStatus.单据审核状态
+             CompanyNature.国家机关
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ServiceFormBillType">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.CompanyNature_房地产">
             <summary>
-             ServiceFormBillType.服务单单据类型
+             CompanyNature.房地产
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ReciveBillProcessStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.CompanyNature_建筑业">
             <summary>
-             ReciveBillProcessStatus.收入单过程状态
+             CompanyNature.建筑业
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ExpendStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.CompanyNature_社会服务业">
             <summary>
-             ExpendStatus.支出单状态
+             CompanyNature.社会服务业
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ExpendType">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.CompanyNature_互联网">
             <summary>
-             ExpendType.支出单类型
+             CompanyNature.互联网
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.ExpendPayStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.CompanyNature_制造业">
             <summary>
-             ExpendPayStatus.支出单支出状态
+             CompanyNature.制造业
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.CouponStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.CompanyNature_金融业">
             <summary>
-             CouponStatus.优惠单状态
+             CompanyNature.金融业
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.TradMark">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.CompanyNature_其他业">
             <summary>
-             TradMark.回收标识
+             CompanyNature.其他业
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.RecoverType">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.DbType_SqlServer">
             <summary>
-             RecoverType.回访类型
+             DbType.SqlServer
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.BillHasCheckOut">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.DbType_Oracle">
             <summary>
-             BillHasCheckOut.子单是否结算
+             DbType.Oracle
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.BillLogProcessStatus">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.DbType_MySql">
             <summary>
-             BillLogProcessStatus.单据日志操作类型
+             DbType.MySql
             </summary>
         </member>
-        <member name="F:LeaRun.Application.Entity.DataItemCodes.BusinessUnit">
+        <member name="F:LeaRun.Application.Entity.DataItemValues.DbVersion_SqlServer">
             <summary>
-             BusinessUnit.业务单位
+             DbVersion.SqlServer
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.DbVersion_2000">
+            <summary>
+             DbVersion.2000
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.DbVersion_51">
+            <summary>
+             DbVersion.5.1
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.DbVersion_10g">
+            <summary>
+             DbVersion.10g
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.DbVersion_11g">
+            <summary>
+             DbVersion.11g
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.DbVersion_2005">
+            <summary>
+             DbVersion.2005
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.DbVersion_Oracle">
+            <summary>
+             DbVersion.Oracle
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.DbVersion_MySql">
+            <summary>
+             DbVersion.MySql
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.DbVersion_2008">
+            <summary>
+             DbVersion.2008
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.DbVersion_2008R2">
+            <summary>
+             DbVersion.2008 R2
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.DbVersion_2012">
+            <summary>
+             DbVersion.2012
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.DepartmentNature_综合性">
+            <summary>
+             DepartmentNature.综合性
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.DepartmentNature_协调性">
+            <summary>
+             DepartmentNature.协调性
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.DepartmentNature_咨询性">
+            <summary>
+             DepartmentNature.咨询性
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.DepartmentNature_生产性">
+            <summary>
+             DepartmentNature.生产性
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.DepartmentNature_其他性">
+            <summary>
+             DepartmentNature.其他性
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.FlowSort_人事类">
+            <summary>
+             FlowSort.人事类
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.FlowSort_费用类">
+            <summary>
+             FlowSort.费用类
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.FlowSort_合同类">
+            <summary>
+             FlowSort.合同类
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.FlowSort_采购类">
+            <summary>
+             FlowSort.采购类
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.FlowSort_公文类">
+            <summary>
+             FlowSort.公文类
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.FlowSort_绩效类">
+            <summary>
+             FlowSort.绩效类
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.FlowSort_库存类">
+            <summary>
+             FlowSort.库存类
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.FlowSort_行政类">
+            <summary>
+             FlowSort.行政类
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.FlowSort_项目类">
+            <summary>
+             FlowSort.项目类
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.FormSort_1">
+            <summary>
+             FormSort.请假单
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.FormSort_2">
+            <summary>
+             FormSort.公出单
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.FormSort_3">
+            <summary>
+             FormSort.差旅费报销单
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.FormSort_4">
+            <summary>
+             FormSort.通用费用报销单
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.NewsCategory_国内新闻">
+            <summary>
+             NewsCategory.国内新闻
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.NewsCategory_国际新闻">
+            <summary>
+             NewsCategory.国际新闻
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.NewsCategory_社会新闻">
+            <summary>
+             NewsCategory.社会新闻
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.NewsCategory_军事新闻">
+            <summary>
+             NewsCategory.军事新闻
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.NewsCategory_体育新闻">
+            <summary>
+             NewsCategory.体育新闻
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.NewsCategory_娱乐新闻">
+            <summary>
+             NewsCategory.娱乐新闻
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.NewsCategory_科技新闻">
+            <summary>
+             NewsCategory.科技新闻
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.NewsCategory_行业趣闻">
+            <summary>
+             NewsCategory.行业趣闻
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.NewsCategory_其他新闻">
+            <summary>
+             NewsCategory.其他新闻
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.NoticeCategory_会议通知">
+            <summary>
+             NoticeCategory.会议通知
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.NoticeCategory_活动公告">
+            <summary>
+             NoticeCategory.活动公告
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.NoticeCategory_社会公告">
+            <summary>
+             NoticeCategory.社会公告
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.NoticeCategory_内部公告">
+            <summary>
+             NoticeCategory.内部公告
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.NoticeCategory_其他公告">
+            <summary>
+             NoticeCategory.其他公告
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.ReportSort_0">
+            <summary>
+             ReportSort.所有报表
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.ReportSort_TestRpt">
+            <summary>
+             ReportSort.测试报表
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.ReportSort_PurchaseRpt">
+            <summary>
+             ReportSort.采购报表
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.ReportSort_SalesRpt">
+            <summary>
+             ReportSort.销售报表
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.ReportSort_HrReport">
+            <summary>
+             ReportSort.人事报表
+            </summary>
+        </member>
+        <member name="F:LeaRun.Application.Entity.DataItemValues.ReportSort_InventoryRpt">
+            <summary>
+             ReportSort.库存报表
             </summary>
         </member>
         <member name="T:LeaRun.Application.Entity.UserInfoModel">

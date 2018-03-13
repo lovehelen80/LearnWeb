@@ -43,7 +43,7 @@ D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Log
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Log\bin\Debug\LeaRun.Util.Log.pdb
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Log\bin\Debug\log4net.dll
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Log\bin\Debug\log4net.xml
-D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Log\obj\Debug\LeaRun.Util.Log.csprojResolveAssemblyReference.cache
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Log\obj\Debug\LeaRun.Util.Log.csproj.CoreCompileInputs.cache
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Log\obj\Debug\LeaRun.Util.Log.dll
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Log\obj\Debug\LeaRun.Util.Log.pdb
+D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Util\LeaRun.Util.Log\obj\Debug\LeaRun.Util.Log.csproj.CopyComplete

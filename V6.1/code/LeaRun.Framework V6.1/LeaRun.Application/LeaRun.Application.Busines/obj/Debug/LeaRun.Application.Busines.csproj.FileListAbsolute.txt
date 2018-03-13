@@ -540,3 +540,4 @@ D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Application\LeaRun.A
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Application\LeaRun.Application.Busines\obj\Debug\LeaRun.Application.Busines.csproj.CoreCompileInputs.cache
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Application\LeaRun.Application.Busines\obj\Debug\LeaRun.Application.Busines.dll
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Application\LeaRun.Application.Busines\obj\Debug\LeaRun.Application.Busines.pdb
+D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Application\LeaRun.Application.Busines\obj\Debug\LeaRun.Application.Busines.csproj.CopyComplete

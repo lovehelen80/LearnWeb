@@ -37,6 +37,28 @@
             btn: null
         });
     }
+    //生成字典
+    function CreateCode() {
+        Loading(true, "正在创建代码...");
+        window.setTimeout(function () {
+            $.ajax({
+                url: "../../GeneratorManage/Template/CreateCode",
+                type: "post",
+                dataType: "json",
+                async: false,
+                success: function (data) {
+                    if (data.type == 1) {
+                        dialogMsg(data.message, 1);
+                    } else {
+                        dialogAlert(data.message, -1);
+                    }
+                },
+                complete: function () {
+                    Loading(false);
+                }
+            });
+        }, 500);
+    }
 </script>
 <div id="pageayout" class="border" style="background: #fff; overflow: auto;">
     <div style="margin: 20px;">
@@ -49,6 +71,7 @@
                 <small>单表开发功能。</small>
             </div>
             <div class="cover-button">
+                <a class="btn btn-default" onclick="CreateCode()"><i class="fa fa-bug"></i>&nbsp;生成字典常量</a>
                 <a class="btn btn-default"><i class="fa fa-eye"></i>&nbsp;效果</a>
                 <a class="btn btn-default" onclick="btn_singletable()"><i class="fa fa-bug"></i>&nbsp;开发</a>
             </div>

@@ -111,3 +111,4 @@ D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.R
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\obj\Debug\LeaRun.Cache.Redis.csproj.CoreCompileInputs.cache
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\obj\Debug\LeaRun.Cache.Redis.dll
 D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\obj\Debug\LeaRun.Cache.Redis.pdb
+D:\projects\LearnWeb\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\obj\Debug\LeaRun.Cache.Redis.csproj.CopyComplete
